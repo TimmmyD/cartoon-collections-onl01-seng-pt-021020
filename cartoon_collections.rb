@@ -5,6 +5,7 @@ end
 
 def summon_captain_planet(arr)
   arr.map do |el|
+    
   # Your code here
 end
 
