@@ -21,5 +21,5 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.select do |str|
     cheese_types.include?(str)
-  end 
+  end.first 
 end
