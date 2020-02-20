@@ -11,7 +11,7 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  arr.any? {|el| el.length }
+  arr.any? {|el| el.length > 4 }
   # Your code here
 end
 
