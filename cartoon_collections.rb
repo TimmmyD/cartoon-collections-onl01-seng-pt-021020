@@ -6,6 +6,7 @@ end
 def summon_captain_planet(arr)
   arr.map do |el|
     el.capitalize + '!'
+  end 
   # Your code here
 end
 
